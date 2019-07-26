@@ -1,0 +1,21 @@
+{
+    "name": "fiasco/ssh",
+    "description": "SSH and SCP implementations based on symfony/process.",
+    "type": "library",
+    "require": {
+        "symfony/process": "^3.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Fiasco\\Ssh\\": "src/"
+        }
+    },
+    "license": "GPLv3",
+    "authors": [
+        {
+            "name": "Josh Waihi",
+            "email": "josh@joshwaihi.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
